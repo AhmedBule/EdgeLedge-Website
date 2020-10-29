@@ -62,6 +62,12 @@
 
 /* Flex Columns */
 
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+
+}
+
+
 .flex-columns .row{
     display:flex;
     flex-direction: row;
@@ -131,4 +137,18 @@
 
 .section-padding{
     padding: 20px 20px 40px;
+}
+
+/* Flex Grid */
+
+.fex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.fex-grid .column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
