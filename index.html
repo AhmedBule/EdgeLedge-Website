@@ -129,7 +129,7 @@
                         <h2>Latest Blog Post </h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Ipsam sapiente, architecto itaque earum molestiae odit quaerat eos delectus quia reiciendis.</p>
-                        <a href="#" class="btn btn-outline">
+                        <a href="blog.html" class="btn btn-outline">
                         <i class="fas fa-chevron"></i>
                         Read Our Blog
                     </a>
@@ -204,6 +204,18 @@
         </div>
         <p>Copyright &copy; 2020- EdgeLedger </p>
     </footer>
+    <script>
+        var navbar = document.getElementById('navbar');
+
+        window.onscroll = function (){
+            if(window.pageYOffset > 100){
+                    navabr.classlist.remove('top');
+            } else{
+                navbar.classList.add('top');
+            }
+
+        }
+    </script>
 </body>
 
 </html>
